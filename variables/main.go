@@ -49,4 +49,6 @@ func main() {
 	fmt.Printf("Int64 default value: %d\n", my64BitsIntVar)
 	fmt.Printf("64type: %T, bytes: %d, bites %d\n", my64BitsIntVar, unsafe.Sizeof(my64BitsIntVar), unsafe.Sizeof(my64BitsIntVar)*8)
 
+	fmt.Println()
+
 }
